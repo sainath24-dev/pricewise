@@ -1,0 +1,17 @@
+[
+  "current_price",
+  "historical_price",
+  "demand",
+  "stock_available",
+  "competitor_price",
+  "units_sold",
+  "demand_to_stock_ratio",
+  "competitor_price_diff",
+  "competitor_price_ratio",
+  "historical_price_change",
+  "season_intensity",
+  "promotion_active",
+  "cat_Electronics",
+  "cat_Footwear",
+  "cat_Home & Kitchen"
+]

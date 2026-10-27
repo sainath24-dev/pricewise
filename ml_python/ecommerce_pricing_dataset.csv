@@ -1,0 +1,501 @@
+date,product_id,product_name,category,current_price,historical_price,target_price,demand,stock_available,competitor_price,units_sold,season,promotion_active
+2026-04-17,PROD-020,UltraHD 4K Noise-Cancelling Headphones,Electronics,14784,15579,15729,89,69,13701,31,Festival,0
+2026-01-25,PROD-006,Portable Fast-Charging Powerbank 20000mAh,Electronics,2156,2093,2370,89,50,2223,31,Peak,1
+2026-05-26,PROD-002,Espresso Maker with Milk Steam Frother,Home & Kitchen,10459,11090,12447,76,27,12226,27,Festival,0
+2026-01-22,PROD-008,Cold-Press Slow Masticating Juicer,Home & Kitchen,8154,7519,7942,76,39,7190,26,Normal,1
+2026-05-23,PROD-022,Carbon-Plated Marathon Running Shoes,Footwear,9074,8454,6533,42,62,7769,14,Clearance,1
+2026-06-27,PROD-025,Portable Fast-Charging Powerbank 20000mAh,Electronics,2261,2246,1687,49,86,2064,17,Clearance,1
+2026-08-05,PROD-009,Smart Fitness Tracker OLED Pro,Electronics,5020,4731,5621,88,55,4392,30,Festival,0
+2026-03-17,PROD-016,Performance Water-Resistant Softshell Jacket,Apparel,4503,4468,3985,55,43,4554,19,Clearance,1
+2026-08-17,PROD-009,UltraHD 4K Noise-Cancelling Headphones,Electronics,14764,15866,11982,46,63,13775,16,Clearance,0
+2026-08-01,PROD-024,"4K Ultra-Wide Curved Monitor 34""",Electronics,37552,36235,34544,47,52,35310,16,Normal,1
+2026-09-01,PROD-020,Casual Handcrafted Leather Loafers,Footwear,4611,5005,5143,65,35,5149,23,Peak,0
+2026-02-03,PROD-024,Lightweight Slip-On Walking Sneakers,Footwear,2906,2676,2931,33,45,3162,11,Normal,0
+2026-07-07,PROD-018,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6825,6781,5272,38,82,5733,13,Clearance,0
+2026-01-19,PROD-018,Stretch Denim Jeans Vintage Indigo,Apparel,2645,2557,2215,37,43,2520,13,Clearance,0
+2026-04-18,PROD-005,Performance Water-Resistant Softshell Jacket,Apparel,4125,3960,4923,73,7,3844,26,Festival,0
+2026-02-02,PROD-013,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6991,6586,7193,84,14,5831,28,Festival,1
+2026-02-15,PROD-018,Carbon-Plated Marathon Running Shoes,Footwear,7201,7677,6047,39,74,7900,14,Clearance,0
+2026-01-06,PROD-013,UltraHD 4K Noise-Cancelling Headphones,Electronics,15489,15364,17819,62,6,13252,21,Festival,0
+2026-01-19,PROD-024,Precision Gaming Mouse 26K DPI,Electronics,3355,3175,2726,41,39,3263,14,Clearance,1
+2026-02-20,PROD-003,"4K Ultra-Wide Curved Monitor 34""",Electronics,30900,33955,35568,74,25,34804,26,Peak,0
+2026-04-22,PROD-023,Breathable Merino Wool Crewneck Sweater,Apparel,3542,3286,4299,78,8,3286,27,Festival,0
+2026-10-04,PROD-003,Casual Handcrafted Leather Loafers,Footwear,4457,4812,3895,36,16,5174,13,Clearance,1
+2026-09-23,PROD-010,Stretch Denim Jeans Vintage Indigo,Apparel,2372,2446,2432,70,35,2330,25,Peak,1
+2026-03-09,PROD-010,"4K Ultra-Wide Curved Monitor 34""",Electronics,35299,36775,36362,59,28,36371,20,Peak,1
+2026-05-02,PROD-001,Stretch Denim Jeans Vintage Indigo,Apparel,2542,2476,2059,35,26,2452,12,Clearance,1
+2026-03-18,PROD-002,Casual Handcrafted Leather Loafers,Footwear,4866,5109,4389,29,24,5288,10,Clearance,0
+2026-07-20,PROD-024,Casual Handcrafted Leather Loafers,Footwear,4490,4943,5403,75,8,4837,27,Festival,1
+2026-07-26,PROD-022,Performance Water-Resistant Softshell Jacket,Apparel,4983,4550,4228,33,57,4620,11,Clearance,0
+2026-04-08,PROD-001,Stretch Denim Jeans Vintage Indigo,Apparel,2556,2457,2753,76,10,2526,26,Festival,1
+2026-09-11,PROD-001,Breathable Merino Wool Crewneck Sweater,Apparel,3651,3403,3568,81,80,3891,28,Normal,1
+2026-10-07,PROD-009,Wireless Ergonomic Mechanical Keyboard,Electronics,7253,6639,7675,84,11,6605,29,Festival,1
+2026-06-20,PROD-011,"4K Ultra-Wide Curved Monitor 34""",Electronics,34779,34641,38253,79,23,37574,27,Peak,1
+2026-04-14,PROD-022,"4K Ultra-Wide Curved Monitor 34""",Electronics,37292,37239,37986,84,52,36401,29,Normal,1
+2026-10-20,PROD-021,Cold-Press Slow Masticating Juicer,Home & Kitchen,7775,8317,6878,41,51,8132,14,Clearance,0
+2026-10-11,PROD-003,Lightweight Slip-On Walking Sneakers,Footwear,2973,2872,2975,60,80,2907,21,Peak,0
+2026-10-07,PROD-023,Stretch Denim Jeans Vintage Indigo,Apparel,2335,2484,2507,91,24,2302,32,Peak,1
+2026-01-18,PROD-008,Espresso Maker with Milk Steam Frother,Home & Kitchen,10517,11314,11967,76,14,12017,27,Festival,1
+2026-09-15,PROD-006,Precision Gaming Mouse 26K DPI,Electronics,3083,3105,3016,79,79,3324,28,Normal,1
+2026-05-08,PROD-009,Espresso Maker with Milk Steam Frother,Home & Kitchen,10497,11056,8870,39,71,11879,14,Clearance,0
+2026-07-11,PROD-018,Waterproof Trail Hiking Boots,Footwear,6329,6908,5691,67,42,5954,23,Clearance,0
+2026-07-18,PROD-024,Espresso Maker with Milk Steam Frother,Home & Kitchen,11406,10694,13756,92,7,11194,32,Festival,1
+2026-10-18,PROD-001,Breathable Merino Wool Crewneck Sweater,Apparel,3299,3342,2923,50,74,3103,18,Normal,1
+2026-06-07,PROD-015,Cold-Press Slow Masticating Juicer,Home & Kitchen,7317,8081,7717,63,21,8273,22,Peak,1
+2026-09-02,PROD-012,Waterproof Trail Hiking Boots,Footwear,6607,6771,5003,37,75,6892,13,Clearance,1
+2026-03-16,PROD-022,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2044,1984,1933,43,94,2015,15,Peak,0
+2026-02-25,PROD-006,Portable Fast-Charging Powerbank 20000mAh,Electronics,2341,2357,2242,68,92,2070,23,Normal,0
+2026-04-04,PROD-023,Carbon-Plated Marathon Running Shoes,Footwear,8795,8100,7622,77,40,8145,26,Clearance,1
+2026-01-28,PROD-014,Carbon-Plated Marathon Running Shoes,Footwear,8488,8378,6111,36,79,7118,12,Clearance,1
+2026-05-20,PROD-018,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6060,6232,5788,49,37,6891,17,Clearance,0
+2026-08-19,PROD-020,Espresso Maker with Milk Steam Frother,Home & Kitchen,11906,11380,11416,59,72,10860,20,Peak,0
+2026-10-23,PROD-009,Espresso Maker with Milk Steam Frother,Home & Kitchen,11378,10632,11350,68,58,10621,24,Peak,1
+2026-08-15,PROD-001,Portable Fast-Charging Powerbank 20000mAh,Electronics,2162,2357,1958,66,75,2315,23,Clearance,0
+2026-09-11,PROD-012,Wireless Ergonomic Mechanical Keyboard,Electronics,6943,6687,6423,75,82,6673,26,Normal,1
+2026-08-09,PROD-024,Espresso Maker with Milk Steam Frother,Home & Kitchen,10542,11143,11285,64,38,12110,23,Normal,0
+2026-01-02,PROD-018,Carbon-Plated Marathon Running Shoes,Footwear,8082,8425,7798,75,83,7732,26,Normal,0
+2026-05-28,PROD-016,Casual Handcrafted Leather Loafers,Footwear,5367,5109,6257,92,5,4522,31,Festival,1
+2026-02-18,PROD-025,UltraHD 4K Noise-Cancelling Headphones,Electronics,13504,14761,16945,61,4,15465,22,Festival,0
+2026-07-10,PROD-019,Cold-Press Slow Masticating Juicer,Home & Kitchen,8314,8122,7444,60,53,8528,21,Clearance,1
+2026-03-18,PROD-003,Portable Fast-Charging Powerbank 20000mAh,Electronics,2172,2361,2389,94,25,2338,33,Peak,1
+2026-04-09,PROD-021,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1942,1871,2130,70,10,1885,24,Festival,0
+2026-05-20,PROD-024,Breathable Merino Wool Crewneck Sweater,Apparel,3102,3283,2987,34,22,3204,12,Normal,0
+2026-07-24,PROD-011,Lightweight Slip-On Walking Sneakers,Footwear,2828,2725,2883,68,25,3038,24,Normal,1
+2026-08-09,PROD-006,Carbon-Plated Marathon Running Shoes,Footwear,8167,7476,10085,98,5,8644,34,Festival,1
+2026-06-14,PROD-023,Cold-Press Slow Masticating Juicer,Home & Kitchen,9189,8401,7546,52,28,7941,17,Clearance,1
+2026-07-28,PROD-017,Espresso Maker with Milk Steam Frother,Home & Kitchen,11563,11798,12394,67,55,12218,23,Festival,1
+2026-04-09,PROD-018,"4K Ultra-Wide Curved Monitor 34""",Electronics,36785,37067,33613,80,71,31254,27,Normal,1
+2026-07-03,PROD-008,Stretch Denim Jeans Vintage Indigo,Apparel,2675,2573,2525,61,85,2363,21,Peak,0
+2026-04-15,PROD-018,Precision Gaming Mouse 26K DPI,Electronics,3639,3535,3222,66,76,3025,22,Normal,1
+2026-09-09,PROD-001,Breathable Merino Wool Crewneck Sweater,Apparel,3392,3326,3479,59,68,3706,21,Peak,0
+2026-09-25,PROD-018,Waterproof Trail Hiking Boots,Footwear,6959,6850,6906,86,76,6748,29,Peak,1
+2026-08-23,PROD-013,Espresso Maker with Milk Steam Frother,Home & Kitchen,13204,12295,12371,66,67,12826,22,Peak,1
+2026-08-04,PROD-017,Cold-Press Slow Masticating Juicer,Home & Kitchen,8628,8373,8854,84,90,7331,29,Festival,0
+2026-07-21,PROD-003,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6406,6523,6975,72,48,6533,25,Peak,0
+2026-05-08,PROD-024,Lightweight Slip-On Walking Sneakers,Footwear,3189,3110,2906,61,23,3169,21,Clearance,0
+2026-01-10,PROD-012,Precision Gaming Mouse 26K DPI,Electronics,3736,3551,4205,72,3,3460,24,Festival,1
+2026-07-20,PROD-022,Lightweight Slip-On Walking Sneakers,Footwear,2752,2735,2960,53,25,2945,19,Peak,0
+2026-08-10,PROD-022,Breathable Merino Wool Crewneck Sweater,Apparel,3464,3730,3392,56,16,3466,19,Normal,1
+2026-07-28,PROD-016,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1823,1881,1612,61,53,1939,21,Clearance,1
+2026-10-28,PROD-022,Smart Fitness Tracker OLED Pro,Electronics,4289,4414,4197,72,65,4279,25,Normal,0
+2026-03-21,PROD-004,Portable Fast-Charging Powerbank 20000mAh,Electronics,2437,2285,2501,66,39,2412,22,Peak,1
+2026-03-07,PROD-005,Wireless Ergonomic Mechanical Keyboard,Electronics,6639,7322,7163,60,56,6772,21,Peak,0
+2026-02-05,PROD-025,Waterproof Trail Hiking Boots,Footwear,6510,6843,5741,53,29,7005,18,Clearance,1
+2026-06-22,PROD-024,Breathable Merino Wool Crewneck Sweater,Apparel,3990,3761,2975,38,83,3386,13,Clearance,0
+2026-09-11,PROD-020,Lightweight Slip-On Walking Sneakers,Footwear,3317,3049,2916,53,94,2627,18,Peak,1
+2026-05-16,PROD-004,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1926,1940,1706,30,20,1991,10,Clearance,0
+2026-10-14,PROD-009,Smart Fitness Tracker OLED Pro,Electronics,4430,4778,4033,48,27,4449,17,Clearance,0
+2026-06-02,PROD-013,"4K Ultra-Wide Curved Monitor 34""",Electronics,33886,34274,35342,73,62,38784,25,Normal,0
+2026-04-05,PROD-019,Casual Handcrafted Leather Loafers,Footwear,5856,5373,7250,93,3,5388,31,Festival,0
+2026-03-05,PROD-018,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2021,1999,1859,61,91,1938,21,Peak,1
+2026-05-02,PROD-005,Casual Handcrafted Leather Loafers,Footwear,5031,4687,4956,67,56,4557,23,Normal,0
+2026-10-02,PROD-024,Cold-Press Slow Masticating Juicer,Home & Kitchen,6850,7505,6851,58,79,7900,21,Normal,0
+2026-08-03,PROD-003,Lightweight Slip-On Walking Sneakers,Footwear,2687,2965,2626,75,28,3246,26,Clearance,1
+2026-09-20,PROD-014,Casual Handcrafted Leather Loafers,Footwear,4443,4652,4442,78,82,5159,28,Normal,1
+2026-08-13,PROD-014,"4K Ultra-Wide Curved Monitor 34""",Electronics,33856,32840,37146,80,44,38172,28,Peak,1
+2026-02-14,PROD-004,Wireless Ergonomic Mechanical Keyboard,Electronics,7145,6917,7138,56,26,6788,19,Peak,1
+2026-07-28,PROD-024,Casual Handcrafted Leather Loafers,Footwear,5131,5044,5255,56,60,5073,19,Normal,0
+2026-02-12,PROD-018,Wireless Ergonomic Mechanical Keyboard,Electronics,6900,7111,7283,84,76,7130,29,Peak,0
+2026-06-12,PROD-001,Carbon-Plated Marathon Running Shoes,Footwear,8459,8335,9089,63,38,8589,22,Festival,1
+2026-03-12,PROD-010,Performance Water-Resistant Softshell Jacket,Apparel,4259,4345,4805,85,42,3930,29,Festival,0
+2026-07-09,PROD-007,Carbon-Plated Marathon Running Shoes,Footwear,7905,8490,9105,69,10,8487,24,Festival,0
+2026-10-02,PROD-001,Wireless Ergonomic Mechanical Keyboard,Electronics,6621,6921,5604,34,43,7299,12,Clearance,1
+2026-07-06,PROD-005,Stretch Denim Jeans Vintage Indigo,Apparel,2933,2784,2708,47,15,2764,16,Normal,1
+2026-08-03,PROD-011,Cold-Press Slow Masticating Juicer,Home & Kitchen,8260,8260,8462,55,20,8639,19,Normal,0
+2026-10-15,PROD-023,Cold-Press Slow Masticating Juicer,Home & Kitchen,8098,7877,7067,42,36,7595,14,Clearance,0
+2026-04-11,PROD-025,Carbon-Plated Marathon Running Shoes,Footwear,7294,7918,6792,47,54,7876,17,Clearance,0
+2026-03-09,PROD-007,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1755,1902,1821,81,33,1904,29,Normal,1
+2026-10-21,PROD-021,Performance Water-Resistant Softshell Jacket,Apparel,4617,4478,3593,68,89,3966,23,Clearance,1
+2026-02-10,PROD-015,Waterproof Trail Hiking Boots,Footwear,5606,6136,5907,77,22,6409,28,Normal,1
+2026-08-26,PROD-019,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6240,5852,6886,91,14,5659,32,Festival,1
+2026-03-02,PROD-008,Stretch Denim Jeans Vintage Indigo,Apparel,2644,2643,2424,43,25,2885,15,Clearance,0
+2026-01-26,PROD-021,Espresso Maker with Milk Steam Frother,Home & Kitchen,11796,11543,11470,66,58,11123,23,Normal,1
+2026-03-12,PROD-010,Carbon-Plated Marathon Running Shoes,Footwear,7871,7781,7883,51,25,7781,18,Normal,0
+2026-07-17,PROD-012,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6955,6395,5008,40,82,6011,14,Clearance,1
+2026-05-28,PROD-004,Wireless Ergonomic Mechanical Keyboard,Electronics,7397,6785,6095,36,32,6733,12,Clearance,0
+2026-10-26,PROD-006,"4K Ultra-Wide Curved Monitor 34""",Electronics,35900,34085,29964,32,38,31900,11,Clearance,0
+2026-05-26,PROD-016,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6428,6209,5430,60,44,5902,21,Clearance,1
+2026-03-27,PROD-007,Stretch Denim Jeans Vintage Indigo,Apparel,2711,2673,2483,72,82,2562,25,Normal,1
+2026-09-05,PROD-014,Stretch Denim Jeans Vintage Indigo,Apparel,2404,2413,2930,70,7,2519,25,Festival,0
+2026-07-03,PROD-012,Smart Fitness Tracker OLED Pro,Electronics,5091,4727,4173,47,79,4964,16,Clearance,0
+2026-08-23,PROD-005,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1696,1844,1742,38,19,1997,13,Normal,0
+2026-02-25,PROD-010,Espresso Maker with Milk Steam Frother,Home & Kitchen,12662,11711,12303,77,92,10172,26,Peak,0
+2026-01-21,PROD-017,Stretch Denim Jeans Vintage Indigo,Apparel,2314,2442,1976,29,78,2686,10,Clearance,0
+2026-06-03,PROD-017,Performance Water-Resistant Softshell Jacket,Apparel,3741,4155,3628,64,25,4147,23,Clearance,0
+2026-06-08,PROD-024,Precision Gaming Mouse 26K DPI,Electronics,3177,3496,3003,41,60,3209,14,Normal,1
+2026-08-21,PROD-006,Portable Fast-Charging Powerbank 20000mAh,Electronics,2206,2282,2141,73,74,1959,25,Normal,0
+2026-05-17,PROD-013,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2139,1965,2070,54,20,1688,18,Peak,0
+2026-08-13,PROD-011,Espresso Maker with Milk Steam Frother,Home & Kitchen,10959,10646,13017,79,9,10909,28,Festival,1
+2026-03-18,PROD-010,Breathable Merino Wool Crewneck Sweater,Apparel,3511,3607,3639,57,25,3749,20,Normal,0
+2026-01-24,PROD-012,Carbon-Plated Marathon Running Shoes,Footwear,7702,7462,6669,66,71,7628,23,Clearance,0
+2026-03-28,PROD-020,Espresso Maker with Milk Steam Frother,Home & Kitchen,12441,11756,10426,64,35,10277,22,Clearance,1
+2026-08-12,PROD-012,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,5609,5922,5991,76,19,6518,27,Normal,1
+2026-08-17,PROD-013,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6412,6374,6196,37,18,6145,13,Normal,0
+2026-02-15,PROD-006,Wireless Ergonomic Mechanical Keyboard,Electronics,7605,7307,6768,52,30,6520,18,Normal,1
+2026-05-28,PROD-006,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,7230,6612,6906,65,84,7035,22,Normal,0
+2026-10-12,PROD-015,Stretch Denim Jeans Vintage Indigo,Apparel,2406,2603,2613,73,18,2412,26,Peak,0
+2026-06-21,PROD-003,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1731,1767,1462,58,88,1998,20,Clearance,1
+2026-01-27,PROD-004,Espresso Maker with Milk Steam Frother,Home & Kitchen,11462,11830,12278,69,79,12542,24,Peak,0
+2026-09-09,PROD-005,Stretch Denim Jeans Vintage Indigo,Apparel,2373,2460,2324,45,47,2730,16,Normal,1
+2026-10-11,PROD-019,Carbon-Plated Marathon Running Shoes,Footwear,7472,8002,8429,84,94,8847,30,Peak,0
+2026-01-16,PROD-021,UltraHD 4K Noise-Cancelling Headphones,Electronics,15249,13994,15197,66,68,15975,23,Normal,0
+2026-07-16,PROD-015,Waterproof Trail Hiking Boots,Footwear,6876,6481,6317,44,22,6788,15,Normal,1
+2026-02-11,PROD-008,Stretch Denim Jeans Vintage Indigo,Apparel,2544,2643,2321,48,62,2735,17,Normal,1
+2026-03-27,PROD-011,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,5759,6065,5410,79,68,5689,28,Normal,1
+2026-07-17,PROD-015,Casual Handcrafted Leather Loafers,Footwear,5207,5209,4423,63,17,5017,22,Clearance,1
+2026-07-05,PROD-009,Performance Water-Resistant Softshell Jacket,Apparel,3963,4356,3602,66,16,4073,23,Clearance,1
+2026-09-15,PROD-025,Lightweight Slip-On Walking Sneakers,Footwear,2781,2837,2991,87,51,2948,30,Peak,1
+2026-07-17,PROD-002,Carbon-Plated Marathon Running Shoes,Footwear,6917,7524,6878,49,40,7756,18,Normal,1
+2026-10-11,PROD-006,UltraHD 4K Noise-Cancelling Headphones,Electronics,13656,14128,12012,60,80,14904,21,Clearance,0
+2026-02-14,PROD-019,Cold-Press Slow Masticating Juicer,Home & Kitchen,7972,8305,6844,62,17,7685,21,Clearance,1
+2026-10-25,PROD-013,Carbon-Plated Marathon Running Shoes,Footwear,7742,8123,8174,79,76,8298,28,Peak,0
+2026-07-17,PROD-025,Performance Water-Resistant Softshell Jacket,Apparel,4334,3977,4389,82,68,3897,28,Festival,1
+2026-03-15,PROD-018,Cold-Press Slow Masticating Juicer,Home & Kitchen,8631,8290,7845,73,63,8035,25,Normal,1
+2026-05-08,PROD-010,Waterproof Trail Hiking Boots,Footwear,7173,6682,6645,52,46,6781,18,Normal,1
+2026-07-13,PROD-012,Casual Handcrafted Leather Loafers,Footwear,5140,5151,4519,47,88,4975,16,Normal,1
+2026-09-09,PROD-018,Stretch Denim Jeans Vintage Indigo,Apparel,2628,2409,2170,62,42,2336,21,Clearance,1
+2026-08-04,PROD-022,Casual Handcrafted Leather Loafers,Footwear,4912,4686,5663,92,44,4686,32,Festival,0
+2026-05-11,PROD-010,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2235,2040,1864,73,40,1743,24,Clearance,1
+2026-07-26,PROD-016,UltraHD 4K Noise-Cancelling Headphones,Electronics,14541,15364,18513,78,3,15858,27,Festival,0
+2026-03-28,PROD-017,Stretch Denim Jeans Vintage Indigo,Apparel,2486,2756,2781,80,11,2641,28,Festival,1
+2026-06-26,PROD-010,Espresso Maker with Milk Steam Frother,Home & Kitchen,10087,10934,9145,77,38,10568,27,Clearance,1
+2026-03-05,PROD-016,Performance Water-Resistant Softshell Jacket,Apparel,4496,4375,3350,37,66,4201,13,Clearance,1
+2026-01-09,PROD-021,Casual Handcrafted Leather Loafers,Footwear,4498,4605,4285,59,89,4935,21,Normal,1
+2026-05-12,PROD-020,Casual Handcrafted Leather Loafers,Footwear,4294,4649,4085,76,30,4767,27,Clearance,1
+2026-09-26,PROD-022,Performance Water-Resistant Softshell Jacket,Apparel,4594,4614,4389,84,85,4253,29,Normal,1
+2026-09-17,PROD-007,Performance Water-Resistant Softshell Jacket,Apparel,4508,4423,3383,36,87,4595,12,Clearance,1
+2026-01-15,PROD-005,Performance Water-Resistant Softshell Jacket,Apparel,4198,4181,3856,57,80,3903,20,Peak,1
+2026-04-19,PROD-003,Espresso Maker with Milk Steam Frother,Home & Kitchen,11754,11617,12110,55,47,11976,19,Normal,0
+2026-07-12,PROD-013,Precision Gaming Mouse 26K DPI,Electronics,2936,3217,3645,64,5,3690,23,Festival,1
+2026-07-17,PROD-005,Espresso Maker with Milk Steam Frother,Home & Kitchen,11682,11270,12119,59,37,11946,20,Peak,1
+2026-03-09,PROD-007,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2166,1977,1719,46,46,1882,15,Clearance,1
+2026-10-22,PROD-023,UltraHD 4K Noise-Cancelling Headphones,Electronics,15488,15742,17113,65,23,15957,22,Festival,0
+2026-04-27,PROD-024,Smart Fitness Tracker OLED Pro,Electronics,4581,4672,4451,50,79,4212,17,Peak,0
+2026-10-24,PROD-006,Waterproof Trail Hiking Boots,Footwear,6693,6225,7015,71,50,7257,24,Peak,1
+2026-05-13,PROD-006,Cold-Press Slow Masticating Juicer,Home & Kitchen,8748,7993,7414,76,68,8847,26,Clearance,1
+2026-09-17,PROD-005,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6386,6651,5662,57,67,6613,20,Clearance,0
+2026-04-02,PROD-009,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,5847,6052,4440,37,83,5663,13,Clearance,1
+2026-01-07,PROD-007,Cold-Press Slow Masticating Juicer,Home & Kitchen,7384,8133,7424,65,57,7179,23,Peak,1
+2026-05-13,PROD-015,"4K Ultra-Wide Curved Monitor 34""",Electronics,37638,37797,34462,67,85,32837,23,Peak,1
+2026-10-28,PROD-008,Waterproof Trail Hiking Boots,Footwear,6267,6251,6954,82,41,6495,29,Festival,1
+2026-07-19,PROD-008,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1985,1826,1617,41,40,1935,14,Clearance,1
+2026-06-06,PROD-005,Cold-Press Slow Masticating Juicer,Home & Kitchen,8500,8197,7171,61,36,7533,21,Clearance,1
+2026-04-03,PROD-023,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6776,6719,7759,56,9,6513,19,Festival,0
+2026-07-01,PROD-001,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1798,1814,1429,33,15,1699,12,Clearance,1
+2026-04-20,PROD-017,Waterproof Trail Hiking Boots,Footwear,6373,5997,6267,48,82,6770,17,Peak,0
+2026-04-10,PROD-022,Waterproof Trail Hiking Boots,Footwear,6128,6257,5632,68,46,6301,24,Clearance,1
+2026-01-23,PROD-006,"4K Ultra-Wide Curved Monitor 34""",Electronics,38884,37752,28458,56,85,31065,19,Clearance,1
+2026-08-09,PROD-002,Precision Gaming Mouse 26K DPI,Electronics,3582,3481,3904,66,14,3165,22,Festival,0
+2026-07-03,PROD-010,"4K Ultra-Wide Curved Monitor 34""",Electronics,40367,37382,43283,72,12,35532,24,Festival,0
+2026-06-02,PROD-004,Performance Water-Resistant Softshell Jacket,Apparel,4649,4345,4338,48,25,4482,16,Normal,1
+2026-08-16,PROD-008,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6428,6640,5394,33,49,6706,11,Clearance,1
+2026-03-24,PROD-013,Lightweight Slip-On Walking Sneakers,Footwear,2970,2867,3209,77,24,3011,27,Festival,1
+2026-07-15,PROD-018,Waterproof Trail Hiking Boots,Footwear,5487,6090,5323,46,31,6200,17,Normal,1
+2026-02-24,PROD-018,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,5652,5822,5237,40,52,5684,14,Normal,1
+2026-05-14,PROD-010,Performance Water-Resistant Softshell Jacket,Apparel,4133,4426,3837,49,23,4061,17,Normal,1
+2026-01-13,PROD-011,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6706,6159,5927,51,28,6633,17,Clearance,0
+2026-04-16,PROD-011,Espresso Maker with Milk Steam Frother,Home & Kitchen,11231,11389,11596,72,92,12392,25,Peak,1
+2026-07-12,PROD-004,Breathable Merino Wool Crewneck Sweater,Apparel,3604,3761,2953,42,63,3663,14,Clearance,0
+2026-02-27,PROD-014,Performance Water-Resistant Softshell Jacket,Apparel,4468,4424,4185,50,52,4766,17,Clearance,0
+2026-08-19,PROD-013,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6101,6433,4905,36,72,6539,13,Clearance,1
+2026-10-21,PROD-022,Cold-Press Slow Masticating Juicer,Home & Kitchen,8100,7406,9188,67,60,8386,23,Festival,0
+2026-10-08,PROD-015,Espresso Maker with Milk Steam Frother,Home & Kitchen,12184,12356,11090,62,81,10148,21,Normal,0
+2026-07-03,PROD-004,Lightweight Slip-On Walking Sneakers,Footwear,2985,2882,2765,53,76,3031,18,Peak,1
+2026-08-11,PROD-003,Stretch Denim Jeans Vintage Indigo,Apparel,2498,2521,2154,62,27,2416,22,Clearance,1
+2026-09-14,PROD-015,Carbon-Plated Marathon Running Shoes,Footwear,7750,8396,8411,67,81,8669,23,Festival,0
+2026-07-13,PROD-001,Breathable Merino Wool Crewneck Sweater,Apparel,3348,3572,3187,61,40,3631,21,Clearance,0
+2026-08-17,PROD-021,Performance Water-Resistant Softshell Jacket,Apparel,4316,4147,4933,75,56,4604,26,Festival,0
+2026-10-03,PROD-022,Lightweight Slip-On Walking Sneakers,Footwear,3002,2951,2778,65,53,2793,22,Clearance,0
+2026-07-14,PROD-006,Stretch Denim Jeans Vintage Indigo,Apparel,2345,2440,2311,78,91,2401,28,Peak,1
+2026-06-27,PROD-015,Cold-Press Slow Masticating Juicer,Home & Kitchen,8722,8047,9423,73,51,8826,25,Peak,0
+2026-08-16,PROD-006,Wireless Ergonomic Mechanical Keyboard,Electronics,7482,7505,5669,58,77,6487,20,Clearance,1
+2026-08-19,PROD-024,Portable Fast-Charging Powerbank 20000mAh,Electronics,2140,2034,2160,64,51,2089,22,Normal,0
+2026-07-04,PROD-024,Cold-Press Slow Masticating Juicer,Home & Kitchen,8130,8013,7492,58,84,7553,20,Normal,0
+2026-06-28,PROD-023,Stretch Denim Jeans Vintage Indigo,Apparel,2497,2755,2684,69,45,2451,24,Festival,1
+2026-05-10,PROD-019,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6782,6416,8163,96,5,6773,33,Festival,1
+2026-06-27,PROD-008,Carbon-Plated Marathon Running Shoes,Footwear,7910,7533,9543,100,5,7829,35,Festival,1
+2026-05-23,PROD-012,Espresso Maker with Milk Steam Frother,Home & Kitchen,11128,10841,9326,36,26,11852,13,Clearance,1
+2026-07-27,PROD-007,Espresso Maker with Milk Steam Frother,Home & Kitchen,10068,11181,12202,100,11,12256,36,Festival,1
+2026-08-01,PROD-004,Espresso Maker with Milk Steam Frother,Home & Kitchen,10689,11173,11258,73,21,11630,26,Peak,1
+2026-06-09,PROD-003,Breathable Merino Wool Crewneck Sweater,Apparel,3817,3475,3685,62,50,3438,21,Peak,1
+2026-01-07,PROD-016,Casual Handcrafted Leather Loafers,Footwear,4758,4641,5378,93,26,5270,33,Peak,1
+2026-07-03,PROD-024,Smart Fitness Tracker OLED Pro,Electronics,4584,4566,4784,69,10,4440,24,Festival,1
+2026-10-21,PROD-006,UltraHD 4K Noise-Cancelling Headphones,Electronics,15660,14551,14560,46,82,13693,16,Peak,0
+2026-03-25,PROD-004,Espresso Maker with Milk Steam Frother,Home & Kitchen,12213,11908,9854,45,26,10537,15,Clearance,1
+2026-10-10,PROD-025,Espresso Maker with Milk Steam Frother,Home & Kitchen,11893,12351,10611,45,85,10505,15,Normal,0
+2026-04-16,PROD-013,"4K Ultra-Wide Curved Monitor 34""",Electronics,34918,37104,36844,70,21,35897,24,Peak,1
+2026-07-12,PROD-018,Smart Fitness Tracker OLED Pro,Electronics,4584,4499,5087,82,31,4530,28,Festival,1
+2026-07-17,PROD-010,Breathable Merino Wool Crewneck Sweater,Apparel,3956,3753,4058,68,42,3093,23,Festival,0
+2026-04-26,PROD-005,Espresso Maker with Milk Steam Frother,Home & Kitchen,10879,11870,11007,57,54,11600,20,Peak,1
+2026-02-14,PROD-004,Lightweight Slip-On Walking Sneakers,Footwear,3094,2939,3688,100,6,3003,34,Festival,1
+2026-03-16,PROD-012,Cold-Press Slow Masticating Juicer,Home & Kitchen,7828,8138,8289,42,32,8463,15,Peak,0
+2026-10-21,PROD-003,Casual Handcrafted Leather Loafers,Footwear,5142,4897,5522,73,69,5447,25,Festival,0
+2026-10-22,PROD-024,Espresso Maker with Milk Steam Frother,Home & Kitchen,10495,11519,11480,62,47,12491,22,Peak,1
+2026-03-28,PROD-002,Smart Fitness Tracker OLED Pro,Electronics,4207,4672,4637,54,75,4886,19,Festival,0
+2026-01-06,PROD-008,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6017,6119,5991,66,62,6632,23,Normal,0
+2026-06-07,PROD-010,Precision Gaming Mouse 26K DPI,Electronics,3050,3071,2703,45,85,3127,16,Normal,1
+2026-01-08,PROD-018,Casual Handcrafted Leather Loafers,Footwear,5061,4970,5338,51,15,4991,18,Peak,0
+2026-07-16,PROD-002,Carbon-Plated Marathon Running Shoes,Footwear,7721,8576,7491,43,82,8301,15,Normal,0
+2026-09-05,PROD-021,Stretch Denim Jeans Vintage Indigo,Apparel,2635,2430,2386,61,25,2847,21,Clearance,1
+2026-07-23,PROD-024,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,5832,6392,6525,60,48,6545,21,Peak,0
+2026-08-11,PROD-014,Waterproof Trail Hiking Boots,Footwear,6106,6450,6661,51,28,7191,18,Peak,0
+2026-05-27,PROD-023,Portable Fast-Charging Powerbank 20000mAh,Electronics,2265,2149,1808,39,26,2174,13,Clearance,1
+2026-05-09,PROD-006,Smart Fitness Tracker OLED Pro,Electronics,4578,4741,4265,77,80,4058,27,Peak,1
+2026-04-05,PROD-007,Precision Gaming Mouse 26K DPI,Electronics,3525,3486,3643,68,32,3339,23,Festival,1
+2026-08-26,PROD-005,Espresso Maker with Milk Steam Frother,Home & Kitchen,12878,11842,11300,31,23,10351,10,Normal,0
+2026-07-06,PROD-012,Wireless Ergonomic Mechanical Keyboard,Electronics,7158,6576,5936,63,18,6244,22,Clearance,1
+2026-08-02,PROD-003,Performance Water-Resistant Softshell Jacket,Apparel,4099,4144,4115,83,67,3936,29,Peak,1
+2026-08-12,PROD-019,Lightweight Slip-On Walking Sneakers,Footwear,2567,2731,2968,66,60,3167,23,Peak,0
+2026-03-04,PROD-008,Lightweight Slip-On Walking Sneakers,Footwear,2528,2793,2891,65,12,2967,23,Festival,1
+2026-10-11,PROD-024,Stretch Denim Jeans Vintage Indigo,Apparel,2765,2613,2841,74,37,2747,25,Peak,1
+2026-08-02,PROD-003,Carbon-Plated Marathon Running Shoes,Footwear,8014,8259,8238,73,84,8129,25,Peak,0
+2026-06-02,PROD-001,Smart Fitness Tracker OLED Pro,Electronics,4133,4572,4179,38,58,4475,13,Normal,0
+2026-03-06,PROD-024,Performance Water-Resistant Softshell Jacket,Apparel,4799,4488,5772,100,8,4671,34,Festival,1
+2026-07-10,PROD-024,Cold-Press Slow Masticating Juicer,Home & Kitchen,8845,8589,8339,72,90,7374,24,Normal,0
+2026-10-08,PROD-021,Casual Handcrafted Leather Loafers,Footwear,4269,4741,3735,33,92,5241,12,Clearance,0
+2026-06-15,PROD-001,Precision Gaming Mouse 26K DPI,Electronics,3262,3109,3388,70,26,3092,24,Normal,0
+2026-07-16,PROD-013,Casual Handcrafted Leather Loafers,Footwear,4384,4799,5329,55,9,4707,20,Festival,0
+2026-01-10,PROD-001,Lightweight Slip-On Walking Sneakers,Footwear,2703,2714,3120,70,24,3152,25,Peak,0
+2026-02-11,PROD-020,Waterproof Trail Hiking Boots,Footwear,6376,6969,4995,26,85,5984,9,Clearance,0
+2026-04-14,PROD-023,Cold-Press Slow Masticating Juicer,Home & Kitchen,8054,7399,6507,25,27,7356,9,Clearance,0
+2026-02-10,PROD-022,Waterproof Trail Hiking Boots,Footwear,5780,6288,4616,25,61,6332,9,Clearance,0
+2026-05-03,PROD-021,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,5548,5893,6280,69,10,6508,25,Festival,1
+2026-10-02,PROD-005,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6023,6169,6384,90,74,5825,31,Festival,1
+2026-09-22,PROD-016,UltraHD 4K Noise-Cancelling Headphones,Electronics,16352,15403,15965,66,81,14689,22,Peak,0
+2026-04-26,PROD-007,Breathable Merino Wool Crewneck Sweater,Apparel,3315,3386,3680,59,72,3796,21,Festival,0
+2026-09-13,PROD-018,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2059,1876,2038,72,23,1870,24,Peak,1
+2026-10-19,PROD-025,Waterproof Trail Hiking Boots,Footwear,7063,6519,5762,48,34,5738,16,Clearance,0
+2026-10-20,PROD-016,UltraHD 4K Noise-Cancelling Headphones,Electronics,13940,15149,12778,56,64,14229,20,Normal,1
+2026-01-24,PROD-016,Smart Fitness Tracker OLED Pro,Electronics,4028,4337,3835,47,57,4616,17,Clearance,0
+2026-04-05,PROD-010,Waterproof Trail Hiking Boots,Footwear,6381,6000,6594,84,27,6192,29,Normal,1
+2026-09-28,PROD-012,Espresso Maker with Milk Steam Frother,Home & Kitchen,10891,11075,10946,65,67,11901,23,Peak,1
+2026-04-27,PROD-007,Portable Fast-Charging Powerbank 20000mAh,Electronics,2102,2302,1822,55,87,2310,19,Clearance,0
+2026-02-22,PROD-001,Smart Fitness Tracker OLED Pro,Electronics,3789,4163,3929,75,74,4348,27,Peak,1
+2026-05-24,PROD-023,Stretch Denim Jeans Vintage Indigo,Apparel,2566,2594,2350,54,35,2886,19,Clearance,1
+2026-05-21,PROD-014,Wireless Ergonomic Mechanical Keyboard,Electronics,5887,6470,7189,83,43,7593,30,Peak,0
+2026-05-14,PROD-013,"4K Ultra-Wide Curved Monitor 34""",Electronics,34903,32249,42634,68,7,36237,24,Festival,0
+2026-06-18,PROD-021,Lightweight Slip-On Walking Sneakers,Footwear,2765,2784,2297,22,80,3022,8,Clearance,0
+2026-05-07,PROD-005,Waterproof Trail Hiking Boots,Footwear,6667,6691,6330,57,48,6244,20,Normal,1
+2026-05-14,PROD-013,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2112,1992,1881,31,78,1945,10,Normal,0
+2026-08-22,PROD-012,Cold-Press Slow Masticating Juicer,Home & Kitchen,7712,7404,8639,97,43,8137,34,Peak,1
+2026-03-22,PROD-011,Casual Handcrafted Leather Loafers,Footwear,5668,5271,5779,70,11,4616,24,Festival,1
+2026-02-16,PROD-002,Smart Fitness Tracker OLED Pro,Electronics,4610,4395,4014,56,89,4291,19,Normal,1
+2026-03-05,PROD-007,Precision Gaming Mouse 26K DPI,Electronics,3505,3505,3123,58,21,3590,20,Clearance,1
+2026-08-11,PROD-021,Lightweight Slip-On Walking Sneakers,Footwear,3371,3125,3677,97,38,3238,32,Peak,1
+2026-07-21,PROD-014,Stretch Denim Jeans Vintage Indigo,Apparel,2392,2655,2596,73,26,2458,26,Peak,0
+2026-09-07,PROD-001,Espresso Maker with Milk Steam Frother,Home & Kitchen,12067,12355,11478,52,56,10223,18,Peak,1
+2026-05-06,PROD-003,"4K Ultra-Wide Curved Monitor 34""",Electronics,34319,36307,32554,36,64,38166,13,Normal,0
+2026-08-12,PROD-025,Wireless Ergonomic Mechanical Keyboard,Electronics,7435,7501,7416,83,32,7033,28,Normal,1
+2026-10-17,PROD-006,Performance Water-Resistant Softshell Jacket,Apparel,4992,4607,4961,50,42,4199,17,Peak,0
+2026-01-02,PROD-023,Wireless Ergonomic Mechanical Keyboard,Electronics,7658,7235,7707,68,21,6789,23,Normal,0
+2026-07-22,PROD-004,Precision Gaming Mouse 26K DPI,Electronics,3024,3270,3171,86,95,3103,30,Peak,0
+2026-05-27,PROD-017,Casual Handcrafted Leather Loafers,Footwear,5327,4934,5536,69,12,5013,24,Festival,1
+2026-01-01,PROD-022,Stretch Denim Jeans Vintage Indigo,Apparel,2574,2684,2144,66,76,2312,23,Clearance,0
+2026-05-09,PROD-015,UltraHD 4K Noise-Cancelling Headphones,Electronics,16338,15804,17341,58,10,13736,20,Festival,0
+2026-01-01,PROD-005,UltraHD 4K Noise-Cancelling Headphones,Electronics,16930,15751,16210,67,29,16267,23,Normal,1
+2026-08-09,PROD-013,Stretch Denim Jeans Vintage Indigo,Apparel,2508,2540,2814,83,38,2675,29,Festival,1
+2026-08-06,PROD-020,Espresso Maker with Milk Steam Frother,Home & Kitchen,12472,11773,13126,58,10,10431,20,Festival,0
+2026-08-02,PROD-003,Espresso Maker with Milk Steam Frother,Home & Kitchen,12553,11704,13532,83,29,12548,28,Peak,1
+2026-10-04,PROD-014,Waterproof Trail Hiking Boots,Footwear,6433,5992,6563,85,81,6538,29,Peak,1
+2026-03-03,PROD-025,Breathable Merino Wool Crewneck Sweater,Apparel,3533,3413,4154,93,10,3402,32,Festival,0
+2026-08-26,PROD-019,Espresso Maker with Milk Steam Frother,Home & Kitchen,12058,11022,11821,77,45,10258,26,Peak,1
+2026-09-18,PROD-001,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6588,6658,4889,28,66,5723,10,Clearance,0
+2026-04-28,PROD-015,Portable Fast-Charging Powerbank 20000mAh,Electronics,2427,2362,2404,73,61,2405,25,Peak,1
+2026-05-18,PROD-017,Lightweight Slip-On Walking Sneakers,Footwear,2917,2999,3161,52,58,2866,18,Festival,0
+2026-02-28,PROD-013,Carbon-Plated Marathon Running Shoes,Footwear,6920,7418,5682,38,93,7309,14,Clearance,0
+2026-08-15,PROD-022,Breathable Merino Wool Crewneck Sweater,Apparel,3453,3681,2908,62,90,3363,22,Clearance,0
+2026-03-24,PROD-005,Breathable Merino Wool Crewneck Sweater,Apparel,3374,3222,3057,64,37,3544,22,Clearance,1
+2026-06-10,PROD-015,Precision Gaming Mouse 26K DPI,Electronics,3454,3382,2953,70,46,3158,24,Clearance,1
+2026-04-07,PROD-020,Performance Water-Resistant Softshell Jacket,Apparel,4409,4239,4338,85,85,4555,29,Normal,1
+2026-09-16,PROD-019,Waterproof Trail Hiking Boots,Footwear,6427,6937,7234,97,29,6827,34,Peak,1
+2026-03-02,PROD-022,Cold-Press Slow Masticating Juicer,Home & Kitchen,8884,8316,7471,55,28,7588,19,Clearance,0
+2026-09-02,PROD-012,Smart Fitness Tracker OLED Pro,Electronics,4578,4331,4508,33,52,5021,11,Normal,0
+2026-05-23,PROD-022,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6641,6416,6413,67,80,6393,23,Peak,1
+2026-08-27,PROD-008,Precision Gaming Mouse 26K DPI,Electronics,3536,3240,3387,30,47,3676,10,Normal,0
+2026-02-13,PROD-002,Casual Handcrafted Leather Loafers,Footwear,5705,5220,5691,53,37,4752,18,Peak,0
+2026-03-02,PROD-005,Espresso Maker with Milk Steam Frother,Home & Kitchen,10745,11603,10559,51,74,11731,18,Normal,0
+2026-06-17,PROD-008,Carbon-Plated Marathon Running Shoes,Footwear,8558,8349,8093,76,85,8658,26,Normal,1
+2026-06-11,PROD-012,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1851,1986,1694,44,43,1919,15,Clearance,0
+2026-10-08,PROD-002,Casual Handcrafted Leather Loafers,Footwear,5486,5359,6300,94,13,4969,32,Festival,0
+2026-09-15,PROD-016,Lightweight Slip-On Walking Sneakers,Footwear,3367,3092,3072,63,62,2820,21,Normal,0
+2026-04-28,PROD-022,Wireless Ergonomic Mechanical Keyboard,Electronics,6987,7445,7571,86,83,7022,30,Festival,0
+2026-06-02,PROD-003,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6397,6002,6012,65,34,6871,22,Clearance,0
+2026-07-14,PROD-011,UltraHD 4K Noise-Cancelling Headphones,Electronics,13520,14226,13357,78,64,13453,28,Peak,1
+2026-05-26,PROD-022,Precision Gaming Mouse 26K DPI,Electronics,3414,3390,4032,96,24,3411,33,Festival,0
+2026-09-10,PROD-021,Carbon-Plated Marathon Running Shoes,Footwear,8378,7719,8402,72,83,7771,25,Festival,1
+2026-01-01,PROD-019,Stretch Denim Jeans Vintage Indigo,Apparel,2894,2673,2735,65,86,2783,22,Normal,0
+2026-03-08,PROD-020,Cold-Press Slow Masticating Juicer,Home & Kitchen,7391,8060,6957,56,80,7442,20,Normal,0
+2026-05-04,PROD-007,Casual Handcrafted Leather Loafers,Footwear,4851,4691,5353,100,85,5080,35,Festival,1
+2026-06-20,PROD-022,Espresso Maker with Milk Steam Frother,Home & Kitchen,11621,11236,11111,42,55,10766,15,Normal,0
+2026-04-23,PROD-024,Casual Handcrafted Leather Loafers,Footwear,4914,5051,4023,22,55,4779,8,Clearance,0
+2026-08-18,PROD-004,Espresso Maker with Milk Steam Frother,Home & Kitchen,11238,12125,10239,60,60,12142,21,Clearance,1
+2026-01-28,PROD-017,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2147,2003,2199,92,24,1735,31,Peak,1
+2026-04-25,PROD-019,Portable Fast-Charging Powerbank 20000mAh,Electronics,2347,2227,2725,96,5,2047,33,Festival,1
+2026-03-19,PROD-019,Casual Handcrafted Leather Loafers,Footwear,4981,4971,6179,91,5,4875,32,Festival,0
+2026-04-17,PROD-012,Breathable Merino Wool Crewneck Sweater,Apparel,3401,3745,3468,58,62,3719,20,Peak,0
+2026-05-27,PROD-024,Espresso Maker with Milk Steam Frother,Home & Kitchen,13204,12268,12167,75,81,10229,25,Normal,0
+2026-06-16,PROD-016,Casual Handcrafted Leather Loafers,Footwear,4781,4900,5859,86,8,5104,30,Festival,1
+2026-10-23,PROD-004,Portable Fast-Charging Powerbank 20000mAh,Electronics,2305,2333,2130,39,38,2056,13,Normal,0
+2026-07-01,PROD-008,Breathable Merino Wool Crewneck Sweater,Apparel,3835,3673,2812,45,90,3483,15,Clearance,1
+2026-07-20,PROD-019,Smart Fitness Tracker OLED Pro,Electronics,4243,4552,4713,55,36,4639,19,Festival,0
+2026-03-08,PROD-014,"4K Ultra-Wide Curved Monitor 34""",Electronics,38607,36276,39921,90,75,38756,30,Peak,1
+2026-07-13,PROD-005,Performance Water-Resistant Softshell Jacket,Apparel,4393,4384,3952,78,90,3956,27,Normal,1
+2026-10-20,PROD-002,UltraHD 4K Noise-Cancelling Headphones,Electronics,15312,14285,13816,60,27,15015,21,Clearance,0
+2026-09-14,PROD-008,UltraHD 4K Noise-Cancelling Headphones,Electronics,13850,14956,15085,95,68,15371,33,Festival,1
+2026-02-10,PROD-020,Espresso Maker with Milk Steam Frother,Home & Kitchen,11908,11224,14188,70,6,12625,24,Festival,1
+2026-02-05,PROD-014,Espresso Maker with Milk Steam Frother,Home & Kitchen,11384,10927,14135,76,8,12298,26,Festival,0
+2026-09-16,PROD-006,Waterproof Trail Hiking Boots,Footwear,6763,6868,5912,53,67,6289,18,Normal,1
+2026-08-26,PROD-023,Lightweight Slip-On Walking Sneakers,Footwear,2677,2785,2558,64,30,2791,23,Clearance,0
+2026-10-14,PROD-003,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1776,1812,2177,76,5,1825,27,Festival,0
+2026-10-02,PROD-025,Wireless Ergonomic Mechanical Keyboard,Electronics,6125,6687,5104,71,81,6223,25,Clearance,1
+2026-04-20,PROD-006,Breathable Merino Wool Crewneck Sweater,Apparel,3258,3465,3065,32,91,3631,11,Normal,0
+2026-04-17,PROD-001,Wireless Ergonomic Mechanical Keyboard,Electronics,6037,6707,5645,62,65,6424,22,Normal,1
+2026-04-15,PROD-013,UltraHD 4K Noise-Cancelling Headphones,Electronics,15802,15118,15116,57,43,15212,19,Normal,1
+2026-09-27,PROD-019,Wireless Ergonomic Mechanical Keyboard,Electronics,6643,6635,6149,47,80,7097,16,Normal,1
+2026-01-16,PROD-004,Lightweight Slip-On Walking Sneakers,Footwear,3154,3115,3063,83,73,3087,28,Normal,1
+2026-01-23,PROD-009,Carbon-Plated Marathon Running Shoes,Footwear,8302,7849,8442,78,60,7462,27,Peak,1
+2026-05-06,PROD-024,Stretch Denim Jeans Vintage Indigo,Apparel,2514,2430,3032,82,55,2799,29,Festival,0
+2026-10-12,PROD-005,Breathable Merino Wool Crewneck Sweater,Apparel,3439,3632,3385,44,40,3282,15,Normal,0
+2026-10-28,PROD-009,UltraHD 4K Noise-Cancelling Headphones,Electronics,16570,16007,18982,82,10,15587,28,Festival,0
+2026-08-18,PROD-002,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,7352,6787,6727,45,82,5967,15,Peak,0
+2026-10-04,PROD-011,Lightweight Slip-On Walking Sneakers,Footwear,3235,3066,3394,82,16,2869,28,Festival,1
+2026-07-23,PROD-025,Waterproof Trail Hiking Boots,Footwear,5881,6174,5319,51,78,6139,18,Normal,1
+2026-09-14,PROD-013,Waterproof Trail Hiking Boots,Footwear,6564,6867,6680,48,49,6000,17,Peak,0
+2026-09-18,PROD-024,Performance Water-Resistant Softshell Jacket,Apparel,4720,4505,5022,78,78,4271,26,Festival,0
+2026-05-16,PROD-021,Lightweight Slip-On Walking Sneakers,Footwear,2841,2806,2644,66,35,2946,23,Clearance,0
+2026-10-07,PROD-019,Precision Gaming Mouse 26K DPI,Electronics,3263,3428,2764,41,67,3188,14,Normal,1
+2026-03-28,PROD-006,Stretch Denim Jeans Vintage Indigo,Apparel,2627,2539,2149,46,93,2591,16,Clearance,0
+2026-05-23,PROD-009,Lightweight Slip-On Walking Sneakers,Footwear,3002,2960,3348,62,58,3142,21,Festival,0
+2026-03-24,PROD-008,Espresso Maker with Milk Steam Frother,Home & Kitchen,12898,12212,10853,42,38,12710,14,Clearance,1
+2026-02-04,PROD-009,Carbon-Plated Marathon Running Shoes,Footwear,7472,7629,5753,23,65,7223,8,Clearance,0
+2026-09-27,PROD-006,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2096,1946,1957,80,95,1812,27,Peak,1
+2026-03-23,PROD-018,UltraHD 4K Noise-Cancelling Headphones,Electronics,16500,15391,13892,66,49,14370,22,Clearance,1
+2026-02-15,PROD-010,Breathable Merino Wool Crewneck Sweater,Apparel,3669,3572,3346,70,84,3553,24,Normal,1
+2026-08-25,PROD-016,Lightweight Slip-On Walking Sneakers,Footwear,2678,2788,2568,70,75,2551,25,Peak,1
+2026-03-23,PROD-024,Carbon-Plated Marathon Running Shoes,Footwear,8836,8339,10009,74,9,8185,25,Festival,1
+2026-07-07,PROD-003,Espresso Maker with Milk Steam Frother,Home & Kitchen,10061,10985,10389,81,83,11845,29,Normal,1
+2026-01-18,PROD-001,Performance Water-Resistant Softshell Jacket,Apparel,4268,4154,4045,52,56,4420,18,Normal,1
+2026-07-10,PROD-016,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1696,1833,1900,57,34,1871,20,Festival,0
+2026-08-06,PROD-007,Lightweight Slip-On Walking Sneakers,Footwear,2710,2990,2627,59,65,2607,21,Peak,0
+2026-01-07,PROD-015,Lightweight Slip-On Walking Sneakers,Footwear,2820,3051,3098,80,46,3086,28,Peak,1
+2026-09-17,PROD-004,Portable Fast-Charging Powerbank 20000mAh,Electronics,2125,2257,1916,50,95,2140,17,Normal,1
+2026-03-26,PROD-009,Lightweight Slip-On Walking Sneakers,Footwear,2784,2963,2886,57,70,3169,20,Peak,0
+2026-08-03,PROD-022,Precision Gaming Mouse 26K DPI,Electronics,3113,3452,2674,45,26,2936,16,Clearance,0
+2026-06-26,PROD-015,Carbon-Plated Marathon Running Shoes,Footwear,7651,7436,9094,83,44,8386,29,Festival,0
+2026-04-19,PROD-006,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1901,1957,2123,100,11,1733,35,Festival,1
+2026-05-18,PROD-012,Waterproof Trail Hiking Boots,Footwear,6438,6741,7239,75,34,7016,26,Peak,0
+2026-09-27,PROD-013,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6585,6577,7415,100,45,6652,34,Festival,1
+2026-02-02,PROD-005,Breathable Merino Wool Crewneck Sweater,Apparel,3396,3648,2780,39,27,3317,14,Clearance,1
+2026-05-02,PROD-012,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1803,1808,1468,65,94,1716,23,Clearance,1
+2026-07-27,PROD-012,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1898,1751,2207,100,22,1970,35,Festival,1
+2026-04-18,PROD-013,Portable Fast-Charging Powerbank 20000mAh,Electronics,1923,2117,1764,43,81,1972,15,Normal,0
+2026-08-23,PROD-022,Performance Water-Resistant Softshell Jacket,Apparel,4100,4317,3977,58,88,4428,20,Peak,1
+2026-06-11,PROD-018,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,5582,5963,5605,64,91,6150,23,Normal,0
+2026-09-24,PROD-009,Waterproof Trail Hiking Boots,Footwear,6579,6408,6491,66,84,7008,23,Normal,0
+2026-05-01,PROD-010,Lightweight Slip-On Walking Sneakers,Footwear,2816,2875,3036,63,32,3056,22,Normal,0
+2026-03-05,PROD-009,Performance Water-Resistant Softshell Jacket,Apparel,4109,4544,4159,36,19,4631,13,Normal,0
+2026-03-16,PROD-023,Casual Handcrafted Leather Loafers,Footwear,5083,4785,4165,26,56,4509,9,Clearance,0
+2026-07-14,PROD-004,Portable Fast-Charging Powerbank 20000mAh,Electronics,2041,2249,1825,25,57,2362,9,Clearance,0
+2026-04-05,PROD-002,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1991,1940,2030,96,87,1696,33,Festival,1
+2026-02-16,PROD-019,Espresso Maker with Milk Steam Frother,Home & Kitchen,12144,11964,9709,57,33,10368,19,Clearance,1
+2026-07-21,PROD-019,Portable Fast-Charging Powerbank 20000mAh,Electronics,1984,2164,2092,72,86,2200,25,Peak,0
+2026-06-20,PROD-021,Performance Water-Resistant Softshell Jacket,Apparel,3929,4122,4994,94,8,4227,33,Festival,0
+2026-04-07,PROD-022,Wireless Ergonomic Mechanical Keyboard,Electronics,6430,6629,6284,50,20,7539,18,Clearance,0
+2026-02-10,PROD-015,Casual Handcrafted Leather Loafers,Footwear,5572,5205,6494,91,7,4534,31,Festival,0
+2026-01-13,PROD-019,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6424,6130,6366,79,33,5863,27,Normal,1
+2026-05-22,PROD-022,Wireless Ergonomic Mechanical Keyboard,Electronics,6344,6630,6759,59,16,7485,21,Normal,0
+2026-08-28,PROD-020,Carbon-Plated Marathon Running Shoes,Footwear,7926,7383,8694,84,27,8286,29,Peak,1
+2026-03-01,PROD-012,Smart Fitness Tracker OLED Pro,Electronics,4682,4282,4908,67,82,4565,23,Festival,0
+2026-01-18,PROD-009,Waterproof Trail Hiking Boots,Footwear,6279,6629,6988,70,47,7245,24,Normal,0
+2026-07-10,PROD-020,Performance Water-Resistant Softshell Jacket,Apparel,4100,4190,3623,48,45,3925,17,Clearance,0
+2026-07-25,PROD-005,Lightweight Slip-On Walking Sneakers,Footwear,2748,2919,2770,61,82,2648,21,Peak,0
+2026-07-14,PROD-010,Stretch Denim Jeans Vintage Indigo,Apparel,2435,2419,2601,61,18,2736,21,Peak,1
+2026-01-25,PROD-020,Cold-Press Slow Masticating Juicer,Home & Kitchen,9228,8554,8791,42,28,8831,14,Normal,0
+2026-06-06,PROD-013,Casual Handcrafted Leather Loafers,Footwear,4803,5076,5069,70,10,4430,24,Festival,1
+2026-02-06,PROD-015,Espresso Maker with Milk Steam Frother,Home & Kitchen,10167,10832,12255,88,6,10208,31,Festival,1
+2026-07-20,PROD-024,Cold-Press Slow Masticating Juicer,Home & Kitchen,7709,7775,6644,60,63,7513,21,Clearance,0
+2026-01-07,PROD-010,Portable Fast-Charging Powerbank 20000mAh,Electronics,2044,2062,2034,54,86,2398,19,Peak,1
+2026-09-05,PROD-015,Espresso Maker with Milk Steam Frother,Home & Kitchen,12874,12206,12067,70,93,10908,24,Peak,1
+2026-03-15,PROD-019,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6018,6523,6562,78,56,6720,27,Peak,1
+2026-06-03,PROD-017,Breathable Merino Wool Crewneck Sweater,Apparel,3155,3270,3451,47,29,3624,17,Peak,0
+2026-10-28,PROD-022,Cold-Press Slow Masticating Juicer,Home & Kitchen,8392,8372,7141,34,36,8862,12,Clearance,1
+2026-03-04,PROD-005,Performance Water-Resistant Softshell Jacket,Apparel,4261,4553,3430,51,72,4518,18,Clearance,1
+2026-10-22,PROD-016,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1840,1936,1581,60,78,1880,21,Clearance,0
+2026-06-02,PROD-005,Espresso Maker with Milk Steam Frother,Home & Kitchen,11623,11392,10505,33,38,10137,11,Normal,0
+2026-10-22,PROD-023,"4K Ultra-Wide Curved Monitor 34""",Electronics,36168,35436,41935,58,5,33580,20,Festival,0
+2026-07-27,PROD-018,Breathable Merino Wool Crewneck Sweater,Apparel,3537,3639,3145,63,63,3109,22,Normal,1
+2026-10-02,PROD-004,Wireless Ergonomic Mechanical Keyboard,Electronics,6439,6966,6901,73,41,7603,26,Normal,1
+2026-10-20,PROD-012,Precision Gaming Mouse 26K DPI,Electronics,3489,3417,3509,78,55,3527,27,Normal,1
+2026-01-04,PROD-001,Breathable Merino Wool Crewneck Sweater,Apparel,3603,3510,4071,87,52,3493,30,Peak,0
+2026-04-01,PROD-021,Cold-Press Slow Masticating Juicer,Home & Kitchen,8777,8379,6630,34,57,7437,12,Clearance,1
+2026-10-20,PROD-001,Stretch Denim Jeans Vintage Indigo,Apparel,2281,2497,2269,37,57,2474,13,Normal,0
+2026-08-28,PROD-018,Performance Water-Resistant Softshell Jacket,Apparel,4046,4182,3905,63,32,4477,22,Clearance,0
+2026-10-22,PROD-011,Lightweight Slip-On Walking Sneakers,Footwear,2979,3031,2789,75,83,3068,26,Normal,1
+2026-10-04,PROD-025,Carbon-Plated Marathon Running Shoes,Footwear,8222,8600,6622,58,92,7099,20,Clearance,0
+2026-05-06,PROD-004,Waterproof Trail Hiking Boots,Footwear,6410,6717,6502,80,53,5855,28,Peak,1
+2026-09-10,PROD-025,Carbon-Plated Marathon Running Shoes,Footwear,9046,8355,9942,94,34,7891,32,Festival,1
+2026-09-04,PROD-001,Casual Handcrafted Leather Loafers,Footwear,4796,5215,4889,44,73,5578,15,Peak,0
+2026-05-01,PROD-019,Carbon-Plated Marathon Running Shoes,Footwear,8393,8238,6318,28,81,7206,10,Clearance,0
+2026-03-09,PROD-004,Casual Handcrafted Leather Loafers,Footwear,4557,4856,4669,82,30,4731,29,Normal,1
+2026-03-03,PROD-010,Portable Fast-Charging Powerbank 20000mAh,Electronics,2043,2220,2005,49,51,2221,17,Normal,1
+2026-10-19,PROD-021,Lightweight Slip-On Walking Sneakers,Footwear,2438,2691,3022,76,21,3180,27,Festival,0
+2026-08-04,PROD-015,Cold-Press Slow Masticating Juicer,Home & Kitchen,7552,7814,8621,98,31,7420,34,Festival,1
+2026-06-26,PROD-011,Lightweight Slip-On Walking Sneakers,Footwear,3143,2885,2942,65,38,2651,22,Normal,1
+2026-03-17,PROD-004,Espresso Maker with Milk Steam Frother,Home & Kitchen,10583,10635,9513,40,59,11089,14,Clearance,0
+2026-10-08,PROD-018,Cold-Press Slow Masticating Juicer,Home & Kitchen,8087,8379,7506,65,90,8286,22,Normal,1
+2026-04-06,PROD-022,Breathable Merino Wool Crewneck Sweater,Apparel,3325,3434,3117,68,58,3763,24,Clearance,1
+2026-03-10,PROD-013,"4K Ultra-Wide Curved Monitor 34""",Electronics,37967,37412,33103,67,27,34887,23,Clearance,1
+2026-03-19,PROD-025,Portable Fast-Charging Powerbank 20000mAh,Electronics,2190,2061,1941,63,22,2342,22,Clearance,1
+2026-05-14,PROD-023,Smart Fitness Tracker OLED Pro,Electronics,4572,4615,3823,35,55,4274,12,Clearance,0
+2026-01-01,PROD-023,Carbon-Plated Marathon Running Shoes,Footwear,8286,8105,7837,55,62,8019,19,Peak,1
+2026-07-18,PROD-007,Carbon-Plated Marathon Running Shoes,Footwear,9080,8461,7122,77,63,7491,26,Clearance,1
+2026-03-05,PROD-001,Breathable Merino Wool Crewneck Sweater,Apparel,3334,3297,3385,49,51,3787,17,Normal,1
+2026-07-28,PROD-015,"4K Ultra-Wide Curved Monitor 34""",Electronics,33716,32287,29240,27,32,34887,9,Clearance,0
+2026-10-01,PROD-019,Cold-Press Slow Masticating Juicer,Home & Kitchen,7603,7589,6607,54,43,8099,19,Clearance,1
+2026-06-04,PROD-019,Cold-Press Slow Masticating Juicer,Home & Kitchen,7665,7662,6953,32,87,7828,11,Normal,0
+2026-10-03,PROD-008,Cold-Press Slow Masticating Juicer,Home & Kitchen,7806,7462,7903,73,25,8050,25,Normal,1
+2026-08-15,PROD-017,Cold-Press Slow Masticating Juicer,Home & Kitchen,9073,8308,7990,51,83,7189,17,Normal,0
+2026-10-24,PROD-010,Cold-Press Slow Masticating Juicer,Home & Kitchen,8167,8298,8073,50,19,8883,17,Normal,1
+2026-09-03,PROD-009,Carbon-Plated Marathon Running Shoes,Footwear,8292,8164,7566,48,77,8139,16,Normal,0
+2026-05-26,PROD-023,Casual Handcrafted Leather Loafers,Footwear,4863,5092,6064,89,8,4707,31,Festival,0
+2026-04-22,PROD-015,Breathable Merino Wool Crewneck Sweater,Apparel,3338,3320,4121,90,9,3107,31,Festival,0
+2026-08-10,PROD-016,Performance Water-Resistant Softshell Jacket,Apparel,4650,4352,4186,33,36,3839,11,Normal,0
+2026-06-17,PROD-022,Breathable Merino Wool Crewneck Sweater,Apparel,3523,3602,2787,40,72,3300,14,Clearance,0
+2026-02-09,PROD-021,UltraHD 4K Noise-Cancelling Headphones,Electronics,16441,16001,14000,53,49,16641,18,Clearance,1
+2026-01-22,PROD-001,Espresso Maker with Milk Steam Frother,Home & Kitchen,12600,12002,13468,95,38,12146,32,Peak,1
+2026-01-20,PROD-003,UltraHD 4K Noise-Cancelling Headphones,Electronics,14861,14786,14895,48,47,15667,17,Normal,0
+2026-10-26,PROD-006,Portable Fast-Charging Powerbank 20000mAh,Electronics,2405,2254,2516,57,92,2437,19,Festival,0
+2026-06-09,PROD-006,"4K Ultra-Wide Curved Monitor 34""",Electronics,31866,33231,36767,79,13,36347,28,Festival,1
+2026-04-20,PROD-013,Wireless Ergonomic Mechanical Keyboard,Electronics,7138,7309,7782,78,10,6718,27,Festival,1
+2026-10-24,PROD-009,Breathable Merino Wool Crewneck Sweater,Apparel,3307,3280,3760,100,48,3441,35,Festival,1
+2026-09-23,PROD-025,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6229,6699,7429,79,9,6511,27,Festival,1
+2026-09-12,PROD-011,Espresso Maker with Milk Steam Frother,Home & Kitchen,12164,11381,13045,52,10,12274,18,Festival,0
+2026-05-21,PROD-007,Lightweight Slip-On Walking Sneakers,Footwear,2961,2693,2648,45,73,3001,16,Normal,1
+2026-08-24,PROD-007,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2107,2041,1846,62,60,1807,21,Clearance,0
+2026-08-18,PROD-015,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1885,1806,1462,36,84,1941,12,Clearance,1
+2026-09-05,PROD-024,UltraHD 4K Noise-Cancelling Headphones,Electronics,14139,14613,11966,35,81,15795,12,Clearance,0
+2026-01-10,PROD-004,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1632,1758,1508,37,31,1969,13,Clearance,0
+2026-04-14,PROD-011,Cold-Press Slow Masticating Juicer,Home & Kitchen,7716,7578,9688,83,6,8609,29,Festival,0
+2026-02-04,PROD-009,Espresso Maker with Milk Steam Frother,Home & Kitchen,11199,10801,10087,32,90,11626,11,Normal,0
+2026-10-13,PROD-025,Breathable Merino Wool Crewneck Sweater,Apparel,3227,3313,3390,50,27,3218,18,Peak,0
+2026-05-17,PROD-015,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1845,2014,2116,88,6,1674,31,Festival,1
+2026-05-12,PROD-014,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6890,6741,7026,91,26,5600,31,Peak,1
+2026-04-09,PROD-002,Portable Fast-Charging Powerbank 20000mAh,Electronics,1945,2106,2199,96,79,2215,34,Festival,1
+2026-01-02,PROD-021,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,2063,1989,1753,43,35,2113,15,Clearance,1
+2026-03-06,PROD-001,Waterproof Trail Hiking Boots,Footwear,5889,6197,5392,28,21,6681,10,Clearance,0
+2026-02-11,PROD-008,Cold-Press Slow Masticating Juicer,Home & Kitchen,8101,7508,7757,52,56,8424,18,Normal,1
+2026-07-05,PROD-007,Smart Fitness Tracker OLED Pro,Electronics,5015,4670,4927,72,89,4365,24,Peak,0
+2026-10-02,PROD-009,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,5735,6185,5702,52,57,6631,18,Normal,1
+2026-10-06,PROD-019,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1989,2006,1750,48,92,1749,16,Normal,0
+2026-07-24,PROD-008,Tailored Slim-Fit Cotton Oxford Shirt,Apparel,1880,1872,2017,81,50,2064,28,Peak,1
+2026-08-24,PROD-025,Stretch Denim Jeans Vintage Indigo,Apparel,2429,2572,2731,68,20,2866,24,Peak,0
+2026-07-07,PROD-005,Precision Gaming Mouse 26K DPI,Electronics,3301,3315,3828,93,45,3535,32,Festival,1
+2026-10-01,PROD-015,Waterproof Trail Hiking Boots,Footwear,6849,6228,6526,75,73,5744,26,Normal,0
+2026-02-13,PROD-023,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6550,6676,6887,85,15,6737,29,Normal,1
+2026-01-17,PROD-022,Carbon-Plated Marathon Running Shoes,Footwear,8130,7739,9173,81,57,8379,28,Peak,0
+2026-09-23,PROD-025,Carbon-Plated Marathon Running Shoes,Footwear,7299,7501,6897,51,86,8228,18,Normal,1
+2026-05-17,PROD-022,Performance Water-Resistant Softshell Jacket,Apparel,4388,4630,3617,36,56,3900,12,Clearance,0
+2026-08-20,PROD-012,Espresso Maker with Milk Steam Frother,Home & Kitchen,10407,10679,12367,100,11,11368,35,Festival,1
+2026-02-23,PROD-005,Smart Fitness Tracker OLED Pro,Electronics,4741,4781,4449,56,28,4046,19,Peak,1
+2026-08-12,PROD-014,Multi-Function Digital Air Fryer 5.5L,Home & Kitchen,6705,6677,6495,83,84,6491,28,Normal,1
+2026-06-16,PROD-019,Cold-Press Slow Masticating Juicer,Home & Kitchen,7843,8184,7489,78,89,7160,27,Peak,1

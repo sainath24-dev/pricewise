@@ -1,0 +1,1055 @@
+PROJECT: PRICEWISE — E-COMMERCE DYNAMIC PRICING INTELLIGENCE PLATFORM
+
+1. YOUR ROLE
+
+Act as a senior full-stack engineer, machine learning engineer, data scientist, product designer, and QA engineer.
+
+Build a complete, functional, end-to-end web application for the academic project:
+
+Machine Learning-Based Dynamic Pricing Model for E-Commerce
+
+This is an undergraduate engineering project. The application must demonstrate a real machine learning workflow, meaningful data analysis, model comparisons, price predictions, and a polished user interface.
+
+Do not build a static prototype. Do not create a frontend that merely looks functional. Every important button, form, chart, filter, upload, and model operation must perform its intended action.
+
+Inspect the existing repository before modifying it. Preserve useful existing code and configurations. If the repository is empty, initialize the application using the architecture below.
+
+Do not stop after creating a plan or scaffold. Implement, run, test, debug, and document the complete application.
+
+⸻
+
+2. PROJECT OBJECTIVE
+
+Create a web-based pricing intelligence system that recommends suitable selling prices using historical product pricing and market information.
+
+The system must consider relevant features such as:
+
+* Current product price.
+* Historical product prices.
+* Product demand.
+* Available inventory.
+* Competitor prices.
+* Seasonal trends.
+* Product category.
+* Historical sales.
+* Promotional or festival periods, where available.
+
+The application should allow a user to:
+
+1. Explore the available product dataset.
+2. Analyze historical pricing and sales patterns.
+3. Train multiple machine learning models.
+4. Compare their performance.
+5. Select the best eligible model.
+6. Enter product and market information.
+7. Obtain a predicted price.
+8. Understand which input factors influence the prediction.
+9. Export prediction results and model evaluation reports.
+
+The system is a price prediction and decision-support tool.
+
+It must not claim that a predicted price is guaranteed to maximize profit.
+
+⸻
+
+3. PROJECT SCOPE AND CONSTRAINTS
+
+The following requirements are mandatory.
+
+Required machine learning algorithms
+
+Implement and evaluate:
+
+1. Linear Regression.
+2. Decision Tree Regressor.
+3. Random Forest Regressor.
+
+These must be actual models trained using Scikit-learn.
+
+Do not substitute these algorithms with mock results or hardcoded predictions.
+
+Required technologies
+
+* Python.
+* Pandas.
+* NumPy.
+* Scikit-learn.
+* Matplotlib.
+* Seaborn.
+* CSV datasets.
+* Streamlit for the interactive web application.
+
+Additional lightweight libraries may be used when genuinely necessary.
+
+Required evaluation metrics
+
+Calculate and display:
+
+* Mean Absolute Error (MAE).
+* Root Mean Squared Error (RMSE).
+* R² score.
+
+All evaluation metrics must be calculated from actual held-out test predictions.
+
+Explicit project exclusions
+
+Do not implement:
+
+* Unauthorized scraping of Amazon or Flipkart.
+* Live Amazon or Flipkart pricing integration.
+* Fake claims of real-time competitor prices.
+* Payment processing.
+* Automatic changes to actual marketplace prices.
+* Enterprise-scale distributed infrastructure.
+* Reinforcement learning or deep learning as replacements for the three required algorithms.
+
+The application must work independently using an uploaded, public, or locally generated dataset.
+
+⸻
+
+4. DATASET STRATEGY
+
+A dataset is central to this project. Handle it carefully.
+
+4.1 Dataset selection
+
+Support three data modes:
+
+Mode A: Public dataset
+
+Allow the user to upload a legally obtained historical e-commerce pricing dataset in CSV format.
+
+Provide clear instructions for mapping its columns to the application’s expected schema.
+
+Do not claim to have downloaded or verified an external dataset unless this has actually been done.
+
+Mode B: Built-in demonstration dataset
+
+Include a reproducible sample dataset with realistic, simulated historical product records.
+
+Use a fixed random seed for reproducibility.
+
+Clearly label this data:
+
+“SIMULATED DEMONSTRATION DATA — NOT REAL MARKETPLACE DATA.”
+
+Do not present synthetic records as real Amazon, Flipkart, or retailer data.
+
+Mode C: User-uploaded dataset
+
+Allow CSV uploads through the interface.
+
+Validate the file before processing it.
+
+Show the detected columns and allow users to map them to the required features.
+
+Reject unsupported or invalid files with understandable error messages.
+
+4.2 Recommended canonical dataset schema
+
+Support the following fields where available:
+
+* date
+* product_id
+* product_name
+* category
+* current_price
+* historical_price
+* target_price
+* demand
+* stock_available
+* competitor_price
+* units_sold
+* season
+* promotion_active
+
+Not every dataset will contain every field.
+
+Make optional fields configurable and explain which features are unavailable.
+
+Do not silently manufacture real historical observations when data is missing.
+
+4.3 Target variable
+
+The primary supervised learning target is a historically observed selling price or another clearly documented target price.
+
+The application must distinguish:
+
+* Current observed price.
+* Historical target price used for training.
+* Predicted price generated by the model.
+* Optional business recommendation derived from the prediction.
+
+Do not use a random price as the target merely to make training possible.
+
+Do not use future information that would not have been available when the prediction was made.
+
+Prevent target leakage by excluding the target variable and its direct duplicates from the model’s input features.
+
+If the uploaded dataset does not contain a valid target, explain the problem and provide instructions for obtaining or mapping an appropriate target.
+
+4.4 Data quality checks
+
+Implement:
+
+* Missing-value detection.
+* Duplicate-row detection.
+* Invalid-price detection.
+* Negative inventory and demand checks.
+* Data-type validation.
+* Categorical-value inspection.
+* Numerical distribution analysis.
+* Dataset size reporting.
+* Outlier inspection.
+
+Do not automatically delete every outlier.
+
+Allow users to inspect the cleaning summary and understand which records were excluded and why.
+
+4.5 Dataset information panel
+
+Display:
+
+* Number of records.
+* Number of columns.
+* Date range, if available.
+* Number of unique products.
+* Number of categories.
+* Missing values.
+* Duplicate records.
+* Number of records used for training.
+* Number of records used for testing.
+
+Provide a CSV download of the processed dataset.
+
+⸻
+
+5. MACHINE LEARNING PIPELINE
+
+Build a real and reproducible supervised learning pipeline.
+
+5.1 Data preparation
+
+Use Pandas and NumPy for preprocessing.
+
+Implement:
+
+* Numerical missing-value imputation.
+* Categorical missing-value handling.
+* One-hot encoding for categorical variables.
+* Numerical feature preprocessing when appropriate.
+* Consistent feature-column handling between training and prediction.
+* Prevention of target leakage.
+
+Use Scikit-learn Pipeline and ColumnTransformer where appropriate.
+
+Fit all preprocessing transformations on training data only.
+
+5.2 Feature engineering
+
+Where the source data supports them, derive:
+
+* Competitor price difference.
+* Competitor price ratio.
+* Demand-to-stock ratio.
+* Historical price change.
+* Sales trend.
+* Seasonal indicators.
+* Promotion indicators.
+* Time-based features.
+
+Handle zero stock and zero denominators safely.
+
+Never introduce features that depend on information unavailable at prediction time.
+
+Document the formulas and assumptions for engineered features.
+
+5.3 Training and testing
+
+Use a reproducible train/test split.
+
+For ordinary independent records, use an 80% training and 20% testing split.
+
+For time-dependent pricing data, prefer a chronological split when appropriate to avoid training on future observations and testing on the past.
+
+Make the selected splitting method visible in the model evaluation page.
+
+If multiple observations belong to the same product, inspect whether a grouped split or a time-based evaluation is needed.
+
+5.4 Required models
+
+Model A: Linear Regression
+
+Train a Scikit-learn LinearRegression model.
+
+Display the model’s evaluation metrics.
+
+Model B: Decision Tree Regressor
+
+Train a DecisionTreeRegressor.
+
+Allow sensible configuration of parameters such as:
+
+* Maximum depth.
+* Minimum samples per leaf.
+* Random seed.
+
+Display its evaluation metrics.
+
+Model C: Random Forest Regressor
+
+Train a RandomForestRegressor.
+
+Allow sensible configuration of:
+
+* Number of trees.
+* Maximum depth.
+* Minimum samples per leaf.
+* Random seed.
+
+Display its evaluation metrics.
+
+Use reasonable default settings that work on ordinary student-project hardware.
+
+Avoid unnecessary parallel processing that could overwhelm the user’s machine.
+
+5.5 Model comparison
+
+Build a comparison table containing:
+
+Model	MAE	RMSE	R²	Training Status
+Linear Regression	Calculated	Calculated	Calculated	Actual status
+Decision Tree	Calculated	Calculated	Calculated	Actual status
+Random Forest	Calculated	Calculated	Calculated	Actual status
+
+Never hardcode these values.
+
+Lower MAE and RMSE generally indicate lower prediction error.
+
+Higher R² generally indicates a better fit, although R² can be negative on test data.
+
+Show the model ranking and explain the ranking criteria.
+
+Use MAE as the primary ranking metric, with RMSE and R² as supporting metrics, unless the user selects another documented ranking method.
+
+Explain the limitations of model comparisons on small, noisy, or synthetic datasets.
+
+5.6 Model persistence
+
+Allow trained models to be saved and reloaded locally.
+
+Save the preprocessing pipeline with the estimator so predictions use exactly the transformations applied during training.
+
+Record:
+
+* Model type.
+* Training date.
+* Dataset identifier.
+* Feature schema.
+* Evaluation metrics.
+* Training configuration.
+
+Validate compatibility before loading a saved model.
+
+Never silently use a stale model trained on a different feature schema.
+
+Treat model files as trusted local artifacts and do not load arbitrary uploaded serialized model files.
+
+⸻
+
+6. PRICE PREDICTION ENGINE
+
+Build a fully functional prediction form.
+
+Required input fields
+
+Where supported by the selected model:
+
+* Product name or ID.
+* Product category.
+* Current price.
+* Historical price.
+* Demand.
+* Available stock.
+* Competitor price.
+* Season.
+* Promotion status.
+* Relevant historical sales features.
+
+Provide sensible validation and helpful descriptions.
+
+Do not require fields that the selected model does not use.
+
+Instead, display the exact features required by that model.
+
+Prediction workflow
+
+When the user clicks “Predict Price”:
+
+1. Validate the input.
+2. Check that a compatible trained model exists.
+3. Apply the saved preprocessing pipeline.
+4. Generate the actual model prediction.
+5. Validate the prediction result.
+6. Display the predicted price.
+7. Compare it with the current price, if provided.
+8. Explain the limitations of the prediction.
+9. Allow the user to export the prediction.
+
+Display:
+
+* Current price.
+* Predicted price.
+* Absolute price difference.
+* Percentage price difference.
+* Model used.
+* Model evaluation summary.
+* Input features used.
+
+Use Indian rupee formatting by default, with an optional currency display setting.
+
+Do not claim that a higher predicted price necessarily means higher profit.
+
+Price recommendation logic
+
+Keep the ML prediction separate from business rules.
+
+The predicted price is the model’s output.
+
+An optional recommendation layer may apply explicitly configured business constraints, such as:
+
+* Maximum permitted percentage change.
+* Minimum permitted selling price.
+* Maximum permitted selling price.
+* Inventory-related warnings.
+
+Display both the raw prediction and any adjusted recommendation.
+
+Never hide a business-rule adjustment or present it as the model’s original prediction.
+
+If a recommendation cannot be justified by the available data, show “Insufficient information for a reliable recommendation.”
+
+⸻
+
+7. MODEL EXPLAINABILITY
+
+Provide a model explanation section.
+
+Include:
+
+* Feature importance for Decision Tree.
+* Feature importance for Random Forest.
+* Regression coefficients for Linear Regression, where meaningful.
+* Feature correlation analysis.
+* Prediction input summary.
+
+For the tree-based models, explain that feature importance indicates contribution to the model’s predictive behavior, not proof of causation.
+
+Do not fabricate explanations.
+
+If a feature importance method is unavailable or unsuitable, explain that limitation.
+
+Optionally provide a local explanation using a lightweight, compatible explainability library, but keep the required project functional without external explainability services.
+
+⸻
+
+8. COMPLETE WEBSITE PAGES
+
+Build a cohesive multipage Streamlit application.
+
+Use a clear sidebar navigation system.
+
+Page 1: Overview Dashboard
+
+Show:
+
+* Project introduction.
+* Dataset status.
+* Active model.
+* Last training status.
+* Latest model evaluation metrics.
+* Number of available products.
+* Recent prediction history.
+* Quick navigation to major features.
+
+If no model has been trained, display a helpful onboarding state rather than fake metrics.
+
+Page 2: Dataset Explorer
+
+Features:
+
+* Upload CSV.
+* Preview records.
+* Search records.
+* Filter by product and category.
+* Inspect data types.
+* Inspect missing values.
+* View data-quality findings.
+* Download the processed dataset.
+* Reset to the demonstration dataset.
+
+Filters must update the displayed records and related visualizations.
+
+Page 3: Exploratory Data Analysis
+
+Create useful interactive visualizations, including:
+
+* Price distributions.
+* Demand distributions.
+* Stock distributions.
+* Price versus demand.
+* Price versus competitor price.
+* Price trends over time, if dates are available.
+* Sales by category.
+* Price versus inventory.
+* Correlation heatmap for appropriate numerical features.
+* Category-level comparisons.
+
+Use Matplotlib and Seaborn for the required analytical visualizations.
+
+Avoid misleading charts, unexplained synthetic patterns, and unnecessary decorative graphs.
+
+Show appropriate explanations and chart units.
+
+Page 4: Train Models
+
+Allow users to:
+
+* Select the dataset.
+* Inspect the target variable.
+* Choose supported features.
+* Select the train/test splitting method.
+* Configure model parameters.
+* Train all three required algorithms.
+* View progress and errors.
+* Inspect completed model metrics.
+* Compare models.
+* Save the selected model.
+
+Show the actual training status.
+
+Do not mark a model as trained if the process fails.
+
+Page 5: Model Evaluation
+
+Display:
+
+* MAE comparison.
+* RMSE comparison.
+* R² comparison.
+* Actual versus predicted prices.
+* Residual distribution.
+* Prediction errors.
+* Model ranking.
+* Training configuration.
+* Test-set size.
+* Model limitations.
+
+Use actual results from the current training run.
+
+Page 6: Price Predictor
+
+Provide the interactive prediction form described above.
+
+Include:
+
+* Input validation.
+* Model selection.
+* Predicted price.
+* Current-versus-predicted comparison.
+* Model details.
+* Explanation of available input features.
+* Downloadable prediction result.
+
+Do not use fabricated predictions.
+
+Page 7: Pricing Insights
+
+Create an analysis page that helps users understand the data.
+
+Show:
+
+* Categories with higher and lower historical prices.
+* Products with significant observed price variation.
+* Demand and inventory patterns.
+* Competitor price differences.
+* Seasonal price patterns, when supported by sufficient data.
+* Potentially anomalous records for review.
+
+Distinguish descriptive observations from causal conclusions.
+
+Do not label a product as profitable without actual cost and revenue information.
+
+Page 8: Prediction History
+
+Store prediction records locally.
+
+Include:
+
+* Prediction timestamp.
+* Product identifier.
+* Input features.
+* Current price.
+* Predicted price.
+* Model used.
+
+Provide filtering, sorting, deletion, and CSV export.
+
+Use SQLite if persistent structured storage is required.
+
+Handle missing product identifiers sensibly.
+
+Do not store sensitive personal information.
+
+Page 9: Project Documentation
+
+Provide an in-app technical documentation page covering:
+
+* Problem statement.
+* Project objectives.
+* Scope.
+* Dataset schema.
+* Preprocessing methodology.
+* Feature engineering.
+* ML algorithms.
+* Training/testing strategy.
+* Evaluation metrics.
+* System architecture.
+* Limitations.
+* Future improvements.
+
+Clearly identify simulated data.
+
+Explain that real commercial pricing decisions require appropriate real-world validation.
+
+Page 10: Settings
+
+Include:
+
+* Currency display.
+* Dataset selection.
+* Model defaults.
+* Prediction constraints.
+* Demonstration dataset reset.
+* Prediction-history management.
+* Application information.
+
+Do not expose dangerous operations without confirmation.
+
+⸻
+
+9. UI/UX DESIGN — STRICT REQUIREMENTS
+
+The design must look like a real analytical product built by a thoughtful product-design team.
+
+Do not use generic AI-generated dashboard aesthetics.
+
+Visual direction
+
+Use the visual language of professional financial analytics software, pricing intelligence tools, and well-designed business applications.
+
+The interface should feel:
+
+* Precise.
+* Data-dense but readable.
+* Editorial.
+* Professional.
+* Purpose-built.
+* Consistent.
+* Easy to navigate.
+
+Create a recognizable visual identity for PRICEWISE.
+
+Avoid these design patterns
+
+Do not use:
+
+* Purple-to-blue AI gradients.
+* Glowing neon borders.
+* Cyberpunk styling.
+* Excessive glassmorphism.
+* Large decorative gradient blobs.
+* Random floating circles.
+* Oversized rounded cards everywhere.
+* Identical card grids on every page.
+* Excessive emojis.
+* Robot illustrations.
+* AI brain graphics.
+* Unnecessary animated backgrounds.
+* Fake live indicators.
+* Fake notifications.
+* Decorative charts with fabricated data.
+* Empty charts used to fill space.
+* Excessive pill-shaped buttons.
+* Giant hero sections that waste dashboard space.
+* Generic “AI-powered revolution” marketing copy.
+* Animations that interfere with analytical work.
+
+Suggested visual system
+
+Use a restrained palette:
+
+* Warm off-white or light neutral page background.
+* Dark charcoal typography.
+* Deep forest green or restrained teal as the primary accent.
+* Muted slate for secondary information.
+* Subtle borders.
+* A consistent red/amber/green semantic palette for errors, warnings, and positive states.
+
+Use color to communicate meaning, not merely to decorate.
+
+Layout
+
+Build a persistent sidebar containing:
+
+* Brand mark.
+* Navigation.
+* Current dataset status.
+* Current model status.
+* Application version.
+
+Use a compact top section on each page.
+
+Prefer clear tables, properly sized charts, typography hierarchy, aligned values, and well-designed empty states.
+
+Use cards only when they improve grouping or hierarchy.
+
+Typography
+
+Use a professional, readable typeface.
+
+Use tabular numerals for prices and model metrics where practical.
+
+Make currency values, labels, units, and percentage changes easy to scan.
+
+Interactions
+
+Provide:
+
+* Clear focus states.
+* Helpful tooltips.
+* Loading indicators.
+* Success and error messages.
+* Empty states.
+* Form validation.
+* Confirmation for destructive operations.
+* Responsive layouts.
+
+Animations should be minimal and functional.
+
+Use CSS customizations only where they improve the application. Keep them maintainable and avoid fragile selectors.
+
+Do not imitate Amazon or Flipkart branding. Create an independent identity.
+
+⸻
+
+10. APPLICATION ARCHITECTURE
+
+Use a modular, maintainable Python architecture.
+
+Suggested structure:
+
+pricewise/
+├── app.py
+├── pages/
+│   ├── 01_Overview.py
+│   ├── 02_Dataset_Explorer.py
+│   ├── 03_Exploratory_Analysis.py
+│   ├── 04_Train_Models.py
+│   ├── 05_Model_Evaluation.py
+│   ├── 06_Price_Predictor.py
+│   ├── 07_Pricing_Insights.py
+│   ├── 08_Prediction_History.py
+│   ├── 09_Documentation.py
+│   └── 10_Settings.py
+├── src/
+│   ├── data/
+│   │   ├── loader.py
+│   │   ├── validator.py
+│   │   └── preprocessing.py
+│   ├── features/
+│   │   └── engineering.py
+│   ├── models/
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── predict.py
+│   │   └── persistence.py
+│   ├── analytics/
+│   │   └── insights.py
+│   ├── database/
+│   │   └── history.py
+│   └── utils/
+│       ├── formatting.py
+│       └── validation.py
+├── data/
+│   └── sample_data.csv
+├── artifacts/
+│   └── README.md
+├── tests/
+│   ├── test_data.py
+│   ├── test_features.py
+│   ├── test_training.py
+│   ├── test_prediction.py
+│   └── test_metrics.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── .streamlit/
+└── config.toml
+
+This is a suggested structure, not a requirement to create unnecessary files.
+
+Keep modules focused and avoid duplicating business logic between pages.
+
+⸻
+
+11. STATE AND DATA MANAGEMENT
+
+Implement reliable application state.
+
+* Use Streamlit session state where appropriate.
+* Avoid retraining models on every page refresh.
+* Cache expensive computations safely.
+* Invalidate cached results when the dataset or training configuration changes.
+* Store prediction history persistently when configured.
+* Handle missing artifacts gracefully.
+* Avoid hardcoded absolute file paths.
+* Ensure the application can start from the documented working directory.
+* Handle application restarts without losing saved prediction history.
+
+Clearly distinguish temporary session state from persistent application data.
+
+⸻
+
+12. ERROR HANDLING AND VALIDATION
+
+Handle at least these situations:
+
+* No dataset loaded.
+* Empty CSV.
+* Invalid CSV encoding.
+* Missing target column.
+* Missing required features.
+* Unsupported column types.
+* Invalid prices.
+* Negative inventory.
+* Missing competitor price.
+* Dataset containing too few usable records.
+* Model training failure.
+* Model evaluation failure.
+* Incompatible saved model.
+* Prediction before training.
+* Invalid prediction input.
+* Prediction producing a non-finite value.
+* Database write failure.
+* Missing local files.
+
+Use clear, user-friendly error messages.
+
+Do not silently substitute random data when a real dataset fails to load.
+
+Allow the user to return to the explicitly labelled demonstration dataset when appropriate.
+
+⸻
+
+13. TESTING REQUIREMENTS
+
+Write automated tests using pytest.
+
+At minimum, test:
+
+1. CSV loading.
+2. Dataset validation.
+3. Missing-value preprocessing.
+4. Feature engineering.
+5. Target leakage prevention.
+6. Model training for all three required algorithms.
+7. Calculation of MAE, RMSE, and R².
+8. Prediction using the saved preprocessing pipeline.
+9. Invalid prediction inputs.
+10. Model persistence and reload.
+11. Prediction-history storage.
+12. Handling datasets with missing optional columns.
+
+Use deterministic, appropriately sized test fixtures.
+
+Verify that training and test data are separated correctly.
+
+Check that predictions are finite numeric values.
+
+Check that the application’s prediction feature returns results from the trained model rather than hardcoded examples.
+
+Do not require a live internet connection for automated tests.
+
+⸻
+
+14. PERFORMANCE AND RESOURCE USAGE
+
+The application must run on an ordinary student laptop.
+
+Avoid unnecessary dependencies and background processes.
+
+* Use reasonable default model sizes.
+* Avoid loading the entire dataset repeatedly.
+* Cache expensive analytical results when safe.
+* Keep large data operations out of page-rendering code where possible.
+* Display progress for longer training operations.
+* Use local computation by default.
+* Do not require paid APIs or cloud services.
+* Do not require a GPU.
+
+Document the expected minimum Python version and installation steps.
+
+⸻
+
+15. REPRODUCIBILITY AND ACADEMIC INTEGRITY
+
+The application must support a transparent academic demonstration.
+
+* Document the dataset source.
+* Label synthetic data.
+* Record the random seed.
+* Show the train/test strategy.
+* Calculate metrics from actual predictions.
+* Document preprocessing decisions.
+* Document model parameters.
+* Preserve model comparison results.
+* Explain dataset limitations.
+* Avoid claims of commercial readiness.
+* Avoid claims that historical price prediction automatically optimizes profit.
+
+If synthetic data is used, explain that the results demonstrate the software pipeline rather than validated real-world pricing performance.
+
+Do not fabricate external citations or claim access to marketplace APIs.
+
+⸻
+
+16. README AND EXECUTION
+
+Create a complete README containing:
+
+* Project overview.
+* Problem statement.
+* Features.
+* Technology stack.
+* System architecture.
+* Dataset schema.
+* Dataset preparation instructions.
+* Model training methodology.
+* Evaluation metrics.
+* Installation instructions.
+* Application startup command.
+* Testing instructions.
+* Common troubleshooting steps.
+* Project limitations.
+* Academic demonstration instructions.
+
+Provide a requirements.txt file with compatible dependency versions.
+
+The expected startup flow should be straightforward:
+
+1. Create a Python virtual environment.
+2. Install dependencies.
+3. Run the Streamlit application.
+4. Open the local application in a browser.
+5. Load the demonstration dataset or upload a CSV.
+6. Train the three required models.
+7. Compare model performance.
+8. Generate a price prediction.
+
+Use the standard command:
+
+streamlit run app.py
+
+⸻
+
+17. FINAL ACCEPTANCE CRITERIA
+
+The project is not complete until all of the following work:
+
+[ ] Application launches successfully.
+
+[ ] Dashboard navigation works.
+
+[ ] Demonstration dataset loads correctly.
+
+[ ] CSV upload works.
+
+[ ] Dataset validation works.
+
+[ ] Data preprocessing works.
+
+[ ] Exploratory analysis charts use actual loaded data.
+
+[ ] Linear Regression trains successfully.
+
+[ ] Decision Tree Regressor trains successfully.
+
+[ ] Random Forest Regressor trains successfully.
+
+[ ] MAE, RMSE, and R² are calculated from held-out test predictions.
+
+[ ] Model comparison uses real evaluation results.
+
+[ ] The selected model can be saved and reloaded.
+
+[ ] The prediction form uses the actual trained model.
+
+[ ] Prediction input validation works.
+
+[ ] Model explanations use genuine model information.
+
+[ ] Prediction history persists when configured.
+
+[ ] CSV exports work.
+
+[ ] Documentation is accessible.
+
+[ ] Errors are handled gracefully.
+
+[ ] Automated tests pass.
+
+[ ] The UI is visually consistent and avoids generic AI-dashboard styling.
+
+[ ] The README contains accurate setup instructions.
+
+[ ] Synthetic data and illustrative results are clearly labelled.
+
+[ ] No feature falsely claims live marketplace integration.
+
+⸻
+
+18. EXECUTION INSTRUCTIONS
+
+Work directly in the available repository.
+
+First inspect the files and determine what already exists.
+
+Then:
+
+1. Establish the application architecture.
+2. Implement dataset loading and validation.
+3. Build preprocessing and feature engineering.
+4. Implement all three ML algorithms.
+5. Implement model evaluation.
+6. Implement model persistence.
+7. Implement price prediction.
+8. Implement the multipage dashboard.
+9. Implement prediction history and exports.
+10. Add automated tests.
+11. Run the tests and fix failures.
+12. Launch the application and resolve startup errors.
+13. Verify the core workflow end to end.
+14. Write the README and setup instructions.
+
+Do not stop after producing a plan.
+
+Do not replace difficult functionality with placeholder buttons.
+
+Do not report tests as passing unless they were actually run.
+
+Do not report the application as fully functional until the core workflow has been verified.
+
+If a requirement cannot be completed, explain precisely what remains incomplete and why.
+
+Final objective: Deliver a working, reproducible, academically defensible Machine Learning-Based Dynamic Pricing web application with a distinctive professional interface, genuine model training, real evaluation metrics, and usable price predictions.

@@ -1,0 +1,6 @@
+{
+  "name": "PriceWise - ML E-Commerce Dynamic Pricing Platform",
+  "description": "Machine Learning-based Dynamic Pricing intelligence system and e-commerce platform for optimal pricing prediction using Linear Regression, Decision Tree, and Random Forest.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
